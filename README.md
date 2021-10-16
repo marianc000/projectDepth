@@ -1,4 +1,4 @@
-# Important difference between standard HTML tables and div tables
-And a critical difference between div tables
+# How many levels of nested subfolders can be in a JavaScript project
+Exploring the source code of major Node.js-based projects
 
-Sample code for my post https://marian-caikovski.medium.com/important-difference-between-standard-html-tables-and-div-tables-b6b094ec2c79 comparing performance of standard HTML tables and div tables
+Sample code for my post https://marian-caikovski.medium.com/how-many-levels-of-nested-subfolders-can-be-in-a-javascript-project-94e4877e75db about the optimal hierarchy of folders in a JavaScript project
