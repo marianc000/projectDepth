@@ -19,7 +19,7 @@ export function relevantProjects(map, minFiles){
    return Object.fromEntries(keyVals);
 }
 export function topProjects(map ){
-   return Object.entries(map).sort(([k1,v1],[k2,v2])=>v2.length-v1.length).slice(0,3);
+   return Object.entries(map).sort(([k1,v1],[k2,v2])=>v2.length-v1.length).slice(0,2);
  
  }
  

@@ -13,7 +13,8 @@ Promise.all([
     load('sveltejs', 'svelte', ['test', 'site']),
     load('snowpackjs', 'snowpack', ['test']),
     load('parcel-bundler', 'parcel', ['test'] ),
-    load('puppeteer', 'puppeteer', ['test'])
+    load('puppeteer', 'puppeteer', ['test']),
+    load('microsoft', 'TypeScript', ['test']),
 ]).then(display)
 
 function display(data) {

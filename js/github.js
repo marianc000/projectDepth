@@ -19,7 +19,7 @@ function filesOnBranch(owner,repo,branch){
     return authFetch(`https://api.github.com/repos/${owner}/${repo}/git/trees/${branch}?recursive=1`)
     .then(res=>res.json())
     .then(o=>{
-        if (o.truncated) throw "Truncated list";
+        if (o.truncated) console.error("Truncated list");
         return o.tree;
     });
 }
