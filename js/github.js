@@ -1,7 +1,7 @@
 import {isScript,isPackageJson}from './files.js';
 
 
-const TOKEN='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';
+const TOKEN='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';
 
 function authFetch(url){
     return fetch(url,{headers: {
