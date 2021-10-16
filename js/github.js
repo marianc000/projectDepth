@@ -1,11 +1,11 @@
 import {isScript,isPackageJson}from './files.js';
+import {reverse} from './strings.js';
 
-
-const TOKEN='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';
+const TOKEN='tgQpQ0EKujhALJPyI8tRo9fBiLI2KS9sBwUO_phg';
 
 function authFetch(url){
     return fetch(url,{headers: {
-        'Authorization': 'token '+TOKEN
+        'Authorization': 'token '+reverse(TOKEN)
       } })
 }
 

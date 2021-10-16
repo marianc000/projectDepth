@@ -12,7 +12,7 @@ Promise.all([
     load('rollup', 'rollup', ['test']),
     load('sveltejs', 'svelte', ['test', 'site']),
     load('snowpackjs', 'snowpack', ['test']),
-    load('parcel-bundler', 'parcel', ['test'], 50),
+    load('parcel-bundler', 'parcel', ['test'] ),
     load('puppeteer', 'puppeteer', ['test'])
 ]).then(display)
 
