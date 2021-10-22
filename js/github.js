@@ -1,7 +1,7 @@
 import {isScript,isPackageJson}from './files.js';
 import {reverse} from './strings.js';
 
-const TOKEN='tgQpQ0EKujhALJPyI8tRo9fBiLI2KS9sBwUO_phg';
+const TOKEN='oV1dA4TXrRaLwX6qjy4aeHyVCF9Wy71AsZP9_phg';
 
 function authFetch(url){
     return fetch(url,{headers: {
